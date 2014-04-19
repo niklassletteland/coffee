@@ -1,0 +1,13 @@
+{
+  "name": "coffee",
+  "description": "a test project to figure out unit testing, BDD/TDD, E2E and coverage testing, CI deployment practices.",
+  "version": "0.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "~4.0.0"
+  }
+}

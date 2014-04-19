@@ -1,0 +1,17 @@
+{
+  "name": "coffee",
+  "version": "0.0.0",
+  "authors": [
+    "Niklas Sletteland <niklassletteland@gmail.com>"
+  ],
+  "description": "a test project to figure out unit testing, BDD/TDD, E2E and coverage testing, CI deployment practices.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
