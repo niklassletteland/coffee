@@ -19,5 +19,8 @@
     "blanket": {
       "pattern": "server.js"
     }
+  },
+  "scripts": {
+    "test": "mocha -R spec \n mocha --require blanket -R html-cov > coverage.html"
   }
 }
