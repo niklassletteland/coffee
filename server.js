@@ -13,6 +13,10 @@ app.get("/", function(req, res) {
 	res.sendfile('app/index.html')
 });
 
+exports.test = function() {
+	return 'hello';
+} 
+
 /*
 app.post("/user/add", function(req, res) { 
 	res.send("OK");
