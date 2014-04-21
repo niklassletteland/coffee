@@ -2,4 +2,4 @@
                                                  
 for learning the staples of unit testing / TDD/BDD / E2E testing, and CI
 
-![codeship](https://www.codeship.io/projects/b57c21d0-a96f-0131-15b3-46c2a3557a48/status)
+![codeship](https://www.codeship.io/projects/7dd53b10-abb3-0131-bea5-5e5557b9142b/status)
