@@ -1,5 +1,33 @@
-<img src="https://i.cloudup.com/OPTKt5svqO-3000x3000.png" alt="ascii coffee" />
+<!DOCTYPE html>
+<html data-ng-app="coffeeApp">
+<head>
+	<script src="bower_components/angular/angular.js"></script>
+	<!--<script src="bower_components/angular-mocks/angular-mocks.js"></script>-->
+	<script src="scripts/coffeeApp.js"></script>
+	<script src="scripts/coffeeTypesFactory.js"></script>
+</head>
+<body>
 
-<p>Welcome to coffee.</p>
+	<img src="https://i.cloudup.com/OPTKt5svqO-3000x3000.png" alt="ascii coffee" />
 
-<p>Put a bird on it drinking vinegar locavore, fashion axe fanny pack Austin Williamsburg aesthetic Truffaut selvage 3 wolf moon hella Wes Anderson. Meggings mixtape fingerstache tousled cred twee. VHS irony lo-fi plaid, keffiyeh chillwave Thundercats tattooed American Apparel single-origin coffee Cosby sweater sriracha. Chillwave single-origin coffee gluten-free, YOLO PBR&B meh fixie whatever organic Schlitz pop-up. Stumptown Williamsburg scenester artisan vinyl, ethnic Intelligentsia plaid pug messenger bag bitters Pinterest retro. Leggings typewriter twee, Portland food truck single-origin coffee kitsch Marfa. Swag literally semiotics Shoreditch gentrify plaid sriracha cliche.</p>
+	<p>Welcome to coffee.</p>
+
+	<p>Put a bird on it drinking vinegar locavore, fashion axe fanny pack Austin Williamsburg aesthetic Truffaut selvage 3 wolf moon hella Wes Anderson. Meggings mixtape fingerstache tousled cred twee. VHS irony lo-fi plaid, keffiyeh chillwave Thundercats tattooed American Apparel single-origin coffee Cosby sweater sriracha. Chillwave single-origin coffee gluten-free, YOLO PBR&B meh fixie whatever organic Schlitz pop-up. Stumptown Williamsburg scenester artisan vinyl, ethnic Intelligentsia plaid pug messenger bag bitters Pinterest retro. Leggings typewriter twee, Portland food truck single-origin coffee kitsch Marfa. Swag literally semiotics Shoreditch gentrify plaid sriracha cliche.</p>
+
+	<div data-ng-controller="CoffeeTypesController">
+		Coffee types:
+		<ul>
+			<li data-ng-repeat="type in coffeeTypes">{{type}}</li>
+		</ul>
+	</div>
+
+	<div data-ng-controller="CoffeeShopsController">
+		Coffee shops:
+		<ul>
+			<li data-ng-repeat="shop in coffeeShops">{{shop}}</li>
+		</ul>
+	</div>
+
+
+</body>
+</html>
