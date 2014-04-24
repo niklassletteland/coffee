@@ -18,15 +18,12 @@ coffeeApp.controller('CoffeeTypesController', [
 
 coffeeApp.controller('CoffeeShopsController', [
     '$scope'
+    ,'CoffeeShopsFactory'
     , function(
         $scope
+       ,CoffeeShopsFactory
     ) {
 
-    $scope.coffeeShops = [
-        'Young Hickory'
-       ,'Coffe & Tea Collective'
-       ,'Pergolessi'
-       ,'Lulu\'s'
-    ];
+    $scope.coffeeShops = CoffeeShopsController.getCoffeeShops();
 
 }]);
