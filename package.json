@@ -12,7 +12,7 @@
     "karma": "~0.12.12"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS'"
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "devDependencies": {
     "karma-chrome-launcher": "~0.1.3",
