@@ -12,7 +12,7 @@
     "karma": "~0.12.12"
   },
   "scripts": {
-    "test": "karma start test/karma.conf.js --single-run"
+    "test": "./node_modules/karma/bin/karma start test/karma.conf.js --single-run"
   },
   "devDependencies": {
     "karma-chrome-launcher": "~0.1.3",
