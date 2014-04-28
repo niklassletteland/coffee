@@ -12,7 +12,6 @@ coffeeApp.factory('CoffeeTypesFactory', [
                ,'cappuccino'
                ,'latte'
                ,'espresso'
-               ,'fred'
             ];
         }
 
