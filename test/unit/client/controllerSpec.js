@@ -4,11 +4,11 @@ beforeEach(function() {
     module("coffeeApp");
 });
 
-describe('CoffeeTypesController', function() {
+describe('CoffeeTypesController', function () {
 
     var $scope, $rootScope, createController;
 
-    beforeEach(inject(function($injector) {
+    beforeEach(inject(function ($injector) {
         $rootScope = $injector.get('$rootScope');
         $scope = $rootScope.$new();
 
@@ -21,12 +21,12 @@ describe('CoffeeTypesController', function() {
         };
     }));
 
-    it('should have a $scope variable coffeeTypes', function() {
+    it('should have a $scope variable coffeeTypes', function () {
         var controller = createController();
         expect($scope.coffeeTypes).toBeDefined();
     });
 
-    it('should have a $scope variable set to some coffee types.', function() {
+    it('should have a $scope variable set to some coffee types.', function () {
         var controller = createController();
 
         var expectedCoffeeTypes = [
