@@ -168,15 +168,6 @@ module.exports = function (grunt) {
 
     ]);
 
-    grunt.registerTask('mocha', [
-        'mochaTest'
-    ]);
-
-    grunt.registerTask('dev', [
-        'env:dev',
-        'test'
-    ]);
-
 
     ///////////////////////////////////////////
     // DEFAULT TASKS
